@@ -1,13 +1,13 @@
 First of all create your own docker image:
 
-git clone https://github.com/alitaheri1985/supabase-ssh-functions.git
-cd supabase-ssh-functions
+      git clone https://github.com/alitaheri1985/supabase-ssh-functions.git
+      cd supabase-ssh-functions
 
 modify  environment variables in supavisord.conf file.
 replace your public ssh key in id_rsa.pub file.
 
-docker build -t your-container-registry/your-project-name/supabase-edge-ssh:v1 .
-docker push your-container-registry/your-project-name/supabase-edge-ssh:v1
+      docker build -t your-container-registry/your-project-name/supabase-edge-ssh:v1 .
+      docker push your-container-registry/your-project-name/supabase-edge-ssh:v1
 
 finally you can deploy your container
 
